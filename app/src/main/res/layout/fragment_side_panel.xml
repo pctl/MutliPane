@@ -14,8 +14,8 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Side Pane"
         android:id="@+id/textView"
-        android:layout_gravity="center"
         android:textColor="@android:color/white"
         android:textSize="20sp"
+        android:textStyle="bold"
         />
 </LinearLayout>

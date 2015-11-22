@@ -18,9 +18,9 @@
         android:layout_alignParentTop="true"
         class="com.georgia.bunihubtrial.codelab1.mutlipane.Main_Fragment"
 
-        />
+        tools:layout="@layout/fragment_main_panel" />
     <fragment
-        android:layout_width="match_parent"
+        android:layout_width="150dp"
         android:layout_height="match_parent"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="hellow World"
@@ -29,5 +29,5 @@
         android:layout_alignParentTop="true"
         class="com.georgia.bunihubtrial.codelab1.mutlipane.SidePanelFragment"
 
-        />
+        tools:layout="@layout/fragment_side_panel" />
 </RelativeLayout>
